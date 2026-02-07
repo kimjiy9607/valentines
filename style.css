@@ -77,15 +77,15 @@ p {
     font-size: 40px;
 }
 
-/* Cat */
+/* lemon */
 
-.cat {
+.lemon {
     width: 250px;
     margin: 10px 0;
     transition: width 0.4s ease;
 }
 
-.letter-window.final .cat {
+.letter-window.final .lemon {
     width: 180px;
 }
 

@@ -5,7 +5,7 @@ const noBtn = document.querySelector(".no-btn");
 const yesBtn = document.querySelector(".btn[alt='Yes']");
 
 const title = document.getElementById("letter-title");
-const catImg = document.getElementById("letter-cat");
+const lemonImg = document.getElementById("letter-lemon");
 const buttons = document.getElementById("letter-buttons");
 const finalText = document.getElementById("final-text");
 
@@ -62,7 +62,7 @@ noBtn.addEventListener("mouseover", () => {
 yesBtn.addEventListener("click", () => {
     title.textContent = "Yippeeee!";
 
-    catImg.src = "cat_dance.gif";
+    lemonImg.src = "lemon_ending.gif";
 
     document.querySelector(".letter-window").classList.add("final");
 
